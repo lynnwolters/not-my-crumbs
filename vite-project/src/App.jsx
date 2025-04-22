@@ -1,5 +1,15 @@
+// IMPORTS //
+import Greeting from "./components/Greeting.jsx";
+import Task from "./components/Task.jsx";
+
+// COMPONENT //
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <Task />
+      <Greeting />
+    </>
+  );
 }
 
 export default App;
