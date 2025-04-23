@@ -5,12 +5,12 @@ import Greeting from "../Greeting/Greeting.jsx";
 import { HeaderContainer } from "./Header.css.js";
 
 // COMPONENT //
-function Header() {
+function Header({ title, span }) {
   return (
     <HeaderContainer>
-      <Greeting />
+      <Greeting title={title} span={span} />
     </HeaderContainer>
-  )
+  );
 }
 
 export default Header;

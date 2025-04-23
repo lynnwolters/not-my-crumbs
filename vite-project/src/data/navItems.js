@@ -6,7 +6,7 @@ import settingsIcon from "../assets/settings-icon.svg";
 // DATA //
 const navItems = [
   {
-    href: "#",
+    href: "/",
     src: toDoIcon,
     alt: "This is an icon.",
     text: "To do",
@@ -18,7 +18,7 @@ const navItems = [
     text: "Home",
   },
   {
-    href: "#",
+    href: "/settings",
     src: settingsIcon,
     alt: "This is an icon.",
     text: "Settings",

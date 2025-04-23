@@ -1,18 +1,20 @@
 // IMPORTS //
 import Nav from "./components/Nav/Nav.jsx";
-import Header from "./components/Header/Header.jsx";
-import Main from "./components/Main/Main.jsx";
-import TaskList from "./components/TaskList/TaskList.jsx";
+import {  BrowserRouter, Routes, Route } from "react-router";
+import HomePage from "./pages/HomePage.jsx";
+import SettingsPage from "./pages/SettingsPage.jsx";
 
 // COMPONENT //
 function App() {
   return (
     <>
       <Nav />
-      <Header />
-      <Main>
-        <TaskList />
-      </Main>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/settings" element={<SettingsPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

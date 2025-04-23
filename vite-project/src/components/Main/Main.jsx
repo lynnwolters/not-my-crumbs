@@ -5,12 +5,8 @@ import TaskList from "../TaskList/TaskList.jsx";
 import MainContainer from "./Main.css.js";
 
 // COMPONENT //
-function Main() {
-  return (
-    <MainContainer>
-      <TaskList />
-    </MainContainer>
-  );
+function Main({ children }) {
+  return <MainContainer>{children}</MainContainer>;
 }
 
 export default Main;

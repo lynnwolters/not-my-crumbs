@@ -8,10 +8,10 @@ import App from "./App.jsx";
 
 // COMPONENT //
 createRoot(document.getElementById("root")).render(
-  <ThemeProvider theme={theme}>
-    <StrictMode>
+  <StrictMode>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       <App />
-    </StrictMode>
-  </ThemeProvider>
+    </ThemeProvider>
+  </StrictMode>
 );

@@ -2,11 +2,11 @@
 import { Title, Span } from "./Greeting.css.js";
 
 // COMPONENT //
-function Greeting() {
+function Greeting({ title, span }) {
   return (
     <Title>
-      Hi Lynn 👋🏻,
-      <Span>It's your turn to clean the:</Span>
+      {title}
+      <Span>{span}</Span>
     </Title>
   );
 }
