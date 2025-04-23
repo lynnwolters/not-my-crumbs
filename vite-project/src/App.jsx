@@ -1,7 +1,8 @@
 // IMPORTS //
 import Nav from "./components/Nav/Nav.jsx";
-import {  BrowserRouter, Routes, Route } from "react-router";
+import { Routes, Route } from "react-router";
 import HomePage from "./pages/HomePage.jsx";
+import HousePage from "./pages/HousePage.jsx";
 import SettingsPage from "./pages/SettingsPage.jsx";
 
 // COMPONENT //
@@ -9,12 +10,11 @@ function App() {
   return (
     <>
       <Nav />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/settings" element={<SettingsPage />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/house" element={<HousePage />} />
+        <Route path="/settings" element={<SettingsPage />} />
+      </Routes>
     </>
   );
 }

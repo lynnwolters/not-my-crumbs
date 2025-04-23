@@ -1,6 +1,6 @@
 // ASSETS //
 import toDoIcon from "../assets/to-do-icon.svg";
-import homeIcon from "../assets/home-icon.svg";
+import houseIcon from "../assets/house-icon.svg";
 import settingsIcon from "../assets/settings-icon.svg";
 
 // DATA //
@@ -10,21 +10,18 @@ const navItems = [
     src: toDoIcon,
     alt: "This is an icon.",
     text: "To do",
-    isActive: true,
   },
   {
-    href: "#",
-    src: homeIcon,
+    href: "/house",
+    src: houseIcon,
     alt: "This is an icon.",
-    text: "Home",
-    isActive: false,
+    text: "House",
   },
   {
     href: "/settings",
     src: settingsIcon,
     alt: "This is an icon.",
     text: "Settings",
-    isActive: false,
   },
 ];
 

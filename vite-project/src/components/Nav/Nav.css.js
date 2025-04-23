@@ -37,7 +37,7 @@ export const IconContainer = styled.div`
   width: 1.25rem;
   aspect-ratio: 1/1;
 
-  margin-right: ${(props) => props.theme.spacings.spacingExtraSmall};
+  margin-right: ${(props) => props.$isActive ? props.theme.spacings.spacingExtraSmall : 0};
 `;
 
 export const Icon = styled.img`
