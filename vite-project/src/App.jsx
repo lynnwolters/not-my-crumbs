@@ -1,13 +1,18 @@
 // IMPORTS //
-import Greeting from "./components/Greeting.jsx";
-import Task from "./components/Task.jsx";
+import Nav from "./components/Nav/Nav.jsx";
+import Header from "./components/Header/Header.jsx";
+import Main from "./components/Main/Main.jsx";
+import TaskList from "./components/TaskList/TaskList.jsx";
 
 // COMPONENT //
 function App() {
   return (
     <>
-      <Task />
-      <Greeting />
+      <Nav />
+      <Header />
+      <Main>
+        <TaskList />
+      </Main>
     </>
   );
 }

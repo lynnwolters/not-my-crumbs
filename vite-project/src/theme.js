@@ -1,6 +1,9 @@
 const theme = {
   spacings: {
+    spacingExtraExtraSmall: ".375rem",
+    spacingExtraSmall: ".5rem",
     spacingSmall: "1.25rem",
+    spacingExtraLarge: "5rem",
   },
   borders: {
     border: "solid 1px #e2e2e2",
@@ -22,9 +25,9 @@ const theme = {
   colors: {
     colorWhite: "#ffffff",
     colorBlack: "#231e1c",
-    colorBurple: "d5cdfc",
-    colorRed: "f04545",
-    colorGreen: "b9e616",
+    colorPurple: "#d5cdfc",
+    colorRed: "#f04545",
+    colorGreen: "#b9e616",
     colorTextDimmed: "#7f7f7f",
     colorCheckbox: "#f2f2f2",
   },
