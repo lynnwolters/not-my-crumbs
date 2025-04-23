@@ -29,6 +29,8 @@ export const Link = styled.a`
   border-radius: ${(props) => props.theme.borderRadiusses.borderRadiusLarge};
 
   background-color: ${(props) => props.theme.colors.colorPurple};
+
+  font-size: ${(props) => props.theme.fontSizes.fontSizeSmall};
 `;
 
 export const IconContainer = styled.div`
