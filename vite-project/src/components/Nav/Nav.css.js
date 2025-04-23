@@ -28,7 +28,7 @@ export const Link = styled.a`
 
   border-radius: ${(props) => props.theme.borderRadiusses.borderRadiusLarge};
 
-  background-color: ${(props) => props.theme.colors.colorPurple};
+  background-color: ${(props) => props.$isActive ? props.theme.colors.colorPurple : props.theme.colors.colorWhite};
 
   font-size: ${(props) => props.theme.fontSizes.fontSizeSmall};
 `;

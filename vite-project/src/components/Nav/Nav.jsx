@@ -12,7 +12,7 @@ function Nav() {
         {navItems.map((navItem, index) => {
           return (
             <li key={index}>
-              <Link href={navItem.href}>
+              <Link href={navItem.href} $isActive={navItem.isActive}>
                 <IconContainer>
                   <Icon src={navItem.src} alt={navItem.alt} />
                 </IconContainer>

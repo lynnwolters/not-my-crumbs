@@ -10,18 +10,21 @@ const navItems = [
     src: toDoIcon,
     alt: "This is an icon.",
     text: "To do",
+    isActive: true,
   },
   {
     href: "#",
     src: homeIcon,
     alt: "This is an icon.",
     text: "Home",
+    isActive: false,
   },
   {
     href: "/settings",
     src: settingsIcon,
     alt: "This is an icon.",
     text: "Settings",
+    isActive: false,
   },
 ];
 
